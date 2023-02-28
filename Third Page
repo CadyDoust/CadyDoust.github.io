@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {
+color: red;
+font-family: book antiqua;
+}
+
+#topbar {
+width:100%
+height:100px;
+background-color:black;
+text-align:center;
+}
+</style>
+
+<body style="background-color:black">
+<div id="topbar">
+<div style="width: 100%"; height: 80px; background-color: black>
+<div style="width: 50%"; height: 40px; background-color: black>
+</div>
+</div>
+
+<h1> Here's a shirt page. </h1>
+<h2> Why didn't you buy those pants?! Well, anyway... how about you make it up to me by buying this shirt instead? </h2>
+
+<img id="gpic" src="white shirt.png">
+<button onclick="hidepic()">Hide</button>
+<button onclick="showpic()">Show</button>
+
+<script> 
+  function hidepic() {
+    var pic = document.getElementById("gpic");
+    pic.style.display = "none"
+}
+  function showpic() {
+   var pic = document.getElementById("gpic");
+   pic.style.display = "block"
+}
+</script>
+  
+<h1> $500 </h1>
+<input type="button" value="Buy" onclick="alert('YOU ARE TOO BROKE.');"/>
+<img src="smile.jpeg"> 
+<h2> Buy it. </h2>
+
+<input type="button" value="Back to first page." onclick="alert('There's no going back.');"/>
