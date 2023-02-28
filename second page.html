@@ -3,7 +3,7 @@
 <style>
 body {
 color: yellow;
-font-family: book Antiqua;
+font-family: book antiqua;
 }
 
 #topbar {
@@ -20,9 +20,30 @@ text-align:center;
 <div style="width: 50%"; height: 40px; background-color: green>
 </div>
 </div>
+
 <h1> Welcome to the Pants Page! </h1>
 <h2> Here are pants to buy (very good) (very cheap) </h2>
-<img src="pants.webp">
+
+ <img src="pants.webp">
+<img id="g pic" src="pants.webp">
+<button onlick="hide"> Hide </button>
+<button onlick="show pic"> Show </button>
+  
+ <img id="gpic' src="pants.webp">
+ <button onclick="hidepic()">Hide</button>
+ <button onclick="showpic()">Hide</button>
+
+<script> 
+  function hidepic() {
+    var pic = document.getElementById9"gpic);
+    pic.style.display = "none"
+}
+  function showpic() {
+   var pic = document.getElementById("gpic");
+   pic.style.display = "block"
+}
+</script>
+  
 <h1> $1000 </h1>
 <input type="button" value="Buy" onclick="alert('You are too broke.');"/>
 <img src="smile.jpeg"> 
