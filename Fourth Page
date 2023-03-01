@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {
+color: red;
+font-family: spooky;
+}
+
+#topbar {
+width:100%
+height:100px;
+background-color:black;
+text-align:center;
+}
+</style>
+
+<body style="background-color:black">
+<div id="topbar">
+<div style="width: 100%"; height: 80px; background-color: black>
+<div style="width: 50%"; height: 40px; background-color: black>
+</div>
+</div>
+
+<h1> ... </h1>
+<h2> This is your last chance. </h2>
+
+<img src="mad.gif"> 
+
+<h1> Give me the money. </h1>
+
+<input type="button" value="Give moni" onclick="alert('I'm disappointed in you.');"/>
